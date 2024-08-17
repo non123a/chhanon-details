@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+    <!-- BOOTSTRAP HEADER START -->
+        <div class = "container">
+              <br><h1 class="text-center">Teng Chhanon</h1><br>
+              <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+    
+                <button class="navbar-toggler align-center" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Project</a>
+                      </li>
+                  </ul>
+                  <div class="dropdown show">
+            
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    <!-- BOOTSTRAP HEADER END -->
+
+        <section id="profile">
+            <img src="./photo_2024-08-14_19-00-08.jpg" alt="Teng Chhanon profile picture" class="section__pic-container">
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Teng Chhanon</h1>
+                <p class="section__text__p2">Frontend Developer</p>
+                <div class="e-btn-container">
+                    <button class="e-btn btn-color-2" onclick="window.open('./cv.pdf')">Download CV</button>
+                    <button class="e-btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./1384014.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://Linkedin.com/'">
+                    <img src="./25231.png" alt="My Github profile" class="icon" onclick="location.href='https://Github.com/'">
+
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="section__text__p1">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./photo_2023-12-28_20-08-27 (2).jpg" alt="Profile picture" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./images.png" alt="Experience icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>2+ years <br>Frontend Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./education.png" alt="Education icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>B.Sc Bachelors Degree <br>M.Sc. Master Degree</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>The future Profitable forex trader, drive a SVJ that cost 900k$</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+        </section>
+
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                       
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article class="article-flex">
+                                <img src="./checkmark2.webp" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article class="article-flex">
+                                <img src="./checkmark2.webp" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article class="article-flex">
+                                <img src="./checkmark2.webp" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Java</h3>
+                                    <p>Basic for Backend Development</p>
+                                </div>
+                            </article>
+                            <article class="article-flex">
+                                <img src="./checkmark2.webp" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article class="article-flex">
+                                <img src="./checkmark2.webp" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Materail UI</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article class="article-flex">
+                                <img src="./checkmark2.webp" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Materail UI</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                       
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article class="article-flex">
+                                <img src="./checkmark2.webp" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article class="article-flex">
+                                <img src="./checkmark2.webp" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article class="article-flex">
+                                <img src="./checkmark2.webp" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Java</h3>
+                                    <p>Basic for Backend Development</p>
+                                </div>
+                            </article>
+                            <article class="article-flex">
+                                <img src="./checkmark2.webp" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Java</h3>
+                                    <p>Basic for Backend Development</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Arror -->
+            <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+
+        </section>
+
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./Screenshot 2024-08-17 at 12.53.27 in the afternoon.png" alt="Project 1" class="project-img">
+
+                        </div>
+                        <h2 class="experience-sub-title Project-title">Project One</h2>
+                        <div class="e-btn-container">
+                            <button class="e-btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                            <button class="e-btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+
+                        </div>
+                        
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./Screenshot 2024-08-17 at 12.53.27 in the afternoon.png" alt="Project 1" class="project-img">
+
+                        </div>
+                        <h2 class="experience-sub-title Project-title">Project One</h2>
+                        <div class="e-btn-container">
+                            <button class="e-btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                            <button class="e-btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#footer'">
+        </section>
+
+
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./emailicon.png" alt="Email icon" class="icon contact-icon">
+                    <p><a href="mailto:examplemail@gmail.com" class="e-black">Examle@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container ">
+                    <img src="./1384014.png" alt="Linkedin icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/" class="e-black">LinkedIn</a></p>
+                    
+                </div>
+            </div>
+            
+        </section>
+
+        <footer>
+            <p>Copyright By Teng Chhanon</p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
