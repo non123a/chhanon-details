@@ -7,64 +7,51 @@
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   
 </head>
 <body>
-    <!-- own header -->
-
-        <nav id="desktop-nav">
-            <div class="logo">Teng Chhanon</div>
-            <div>
-                <ul class="nav-links">
-                    <li>
-                        <a href="#about">About</a>
+    <!-- BOOTSTRAP HEADER START -->
+        <div class = "container">
+              <!-- <br><h1 class="text-center">Teng Chhanon</h1><br> -->
+              <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+    
+                <button class="navbar-toggler align-center" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
-                        <a href="#experience">Experience</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
                     </li>
-                    <li>
-                        <a href="#projects">Projects</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#experience">Experience</a>
                     </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <nav id="hamburger-nav">
-            <div class="logo">Teng Chhanon</div>
-            <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Project</a>
+                      </li>
+                  </ul>
+                  <div class="dropdown show">
+            
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="menu-links">
-                    <li>
-                        <a href="#about"  onclick="toggleMenu()">About</a>
-                    </li>
-                    <li>
-                        <a href="#experience"  onclick="toggleMenu()">Experience</a>
-                    </li>
-                    <li>
-                        <a href="#projects"  onclick="toggleMenu()">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact"  onclick="toggleMenu()">Contact</a>
-                    </li>
-                </div>
-            </div>
-        </nav>
+              </nav>
+        </div>
+    <!-- BOOTSTRAP HEADER END -->
 
-
-
-
-
-    <!-- own header end-->
         <section id="profile">
-            <img src="./non3.jpg" alt="Teng Chhanon profile picture" class="section__pic-container">
+            <img src="./photo_2024-08-14_19-00-08.jpg" alt="Teng Chhanon profile picture" class="section__pic-container">
             <div class="section__text">
                 <p class="section__text__p1">Hello, I'm</p>
                 <h1 class="title">Teng Chhanon</h1>
@@ -247,7 +234,7 @@
             <div class="contact-info-upper-container">
                 <div class="contact-info-container">
                     <img src="./emailicon.png" alt="Email icon" class="icon contact-icon">
-                    <p><a href="mailto:examplemail@gmail.com" class="e-black">tengchhanon123@gmail.com</a></p>
+                    <p><a href="mailto:examplemail@gmail.com" class="e-black">Examle@gmail.com</a></p>
                 </div>
                 <div class="contact-info-container ">
                     <img src="./1384014.png" alt="Linkedin icon" class="icon contact-icon">

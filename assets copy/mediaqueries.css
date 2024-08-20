@@ -1,17 +1,3 @@
-
-@media screen and (max-width: 1200px){
-    #desktop-nav{
-        display: none;
-
-    }
-    #hamburger-nav{
-        display: flex;
-    }
-}
-
-
-
-
 @media screen and (max-width: 1400px){
     #profile{
         height: 83vh;
@@ -46,8 +32,8 @@
         margin: 0 5%;
     }
     .section__pic-container{
-        width: auto;
-        height: 46vh;
+        width: 275px;
+        height: 275px;
         margin: 0 auto 2rem;
     }
     .about-containers{
@@ -59,7 +45,7 @@
         height: 40vh;
     }
     #profile{
-        height: 65vh;
+        height: 83vh;
         margin-bottom: 0;
     }
     article{
