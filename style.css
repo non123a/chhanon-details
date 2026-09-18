@@ -130,7 +130,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 @media (max-width: 980px) {
   :root { --shell: min(100% - 52px, 720px); }
-  .nav-links { position: absolute; top: 74px; right: 0; left: 0; display: none; flex-direction: column; align-items: flex-start; gap: 3px; border-bottom: 1px solid var(--rule); padding: 22px var(--shell) 28px; background: var(--paper); }
+  .nav-links { position: absolute; top: 74px; right: 0; left: 0; display: none; flex-direction: column; align-items: flex-start; gap: 3px; border-bottom: 1px solid var(--rule); padding: 22px 26px 28px; background: var(--paper); box-shadow: 0 12px 20px rgba(32, 33, 31, .06); }
   .nav-links.open { display: flex; }
   .nav-cv { margin-top: 10px; border-left: 0; padding-left: 0 !important; }
   .menu-toggle { display: block; }
@@ -149,6 +149,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 @media (max-width: 600px) {
   :root { --shell: calc(100% - 34px); }
+  .nav-links { padding-inline: 17px; }
   .section { padding-block: 82px; }
   .hero { padding-block: 58px 82px; }
   .hero h1 { font-size: clamp(3.7rem, 17vw, 6rem); }
